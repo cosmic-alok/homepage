@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVELES</title>
+    <link rel="stylesheet" href="style .css">
+    <link rel="shortcut icon" href="set.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="pngwing.com.png" class="logo"><span class="new ">NOVELES</span>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#contact">Contact Us</a>
+            </li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+       <h1>Hi, <span>Readers </span> <br>From diffrent states </h1>
+       <p>This is the paradaise you all wanted to read the novels</p>
+    </div>
+</div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="user.jpg" >
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About us</h1>
+                    <p>Hello this application is made for those reader whose are very passionate for rading so we are here with diffrent novels in one place
+                       
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Features</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><i class="fa-regular fa-star fa-beat"></i>Attractive interface</span><br>The interface won't make you feel bore while reading</li>
+                            <li><span><i class="fa-regular fa-star fa-beat"></i>Best content</span><br>emmersive stories</li>
+                            <li><span><i class="fa-regular fa-star fa-beat"></i>Downladable</span><br>If you want you can download and read your naovel later </li>
+                        </ul>
+                    </div>
+                    
+                    </div>
+    </div>
+    <!-- services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Our Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-hand-peace"></i>
+                    <h2>PEACE</h2>
+                    <p>Peaceful novel are here</p>
+                    <a href="#">learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-fire"></i>
+                    <h2>Thriller</h2>
+                    <p>wanna read some thrilling novels </p>
+                    <a href="#">learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-skull"></i>
+                    <h2>Horror </h2>
+                    <p>Horror novel are here at one place </p>
+                    <a href="#">learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-heart"></i>
+                    <h2>romantic</h2>
+                    <p>explore the romance </p>
+                    <a href="#">learn more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- contact us -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>iy@gmailcom</p>
+                <p><i class="fa-solid fa-phone"></i>98119811</p>
+                <div class="socialicons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/login"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="https://play.google.com/store/games?hl=en_US&pli=1" class="btn btn2">Download App</a>
+               
+            </div>
+            <div class="contactright">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &#169; Alok. Made with passion and enthusiasm </p>
+    </div>
+</div>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+
+
+
+</body>
+</html>
